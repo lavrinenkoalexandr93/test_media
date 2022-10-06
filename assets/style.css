@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/librefranklin/v13/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhHMWUBw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v21/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/chakrapetch/v9/cIflMapbsEk7TDLdtEz1BwkebIlFQA.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+/* Blocks */
+.footer {
+  background-color: #000;
+  font-family: 'Rubik' sans-serif;
+  color: #fff;
+  padding: 2rem 0;
+}
+.intro {
+  background: #52C0FF;
+}
+.intro .intro_text {
+  padding: 4rem 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 800px) {
+  .intro .intro_text {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+}
+.intro .intro_text span {
+  font-family: 'Chakra Petch' sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .intro .intro_text span {
+    font-size: 2rem;
+  }
+}
+.slider {
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+.slider .carousel {
+  width: 100%;
+}
+.slider .carousel-item {
+  width: 100%;
+  max-height: 500px;
+  height: auto;
+}
+@media only screen and (max-width: 800px) {
+  .slider .carousel-item {
+    max-height: 270px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slider .carousel-item {
+    max-height: 240px;
+  }
+}
+.video {
+  padding: 6rem 0;
+}
+.video .video_item {
+  padding: 0 1rem;
+}
+.video .video_item .form {
+  display: block;
+}
+.video .video_item .form h3 {
+  color: #52C0FF;
+}
+.video .video_item .form .form_element {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+.video .video_item .form .form_element .form_input {
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+.video .video_item .form #bt {
+  border-radius: 20px;
+  border-color: #52C0FF;
+  color: #52C0FF;
+  transition: hover 0.2s linear;
+  background: #000;
+}
+.video .video_item .form #bt:hover {
+  background: #52C0FF;
+  color: #fff;
+}
+.video iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 400px;
+}
+.header {
+  box-shadow: 0px 15px 10px -15px #111;
+  padding: 1rem 0;
+}

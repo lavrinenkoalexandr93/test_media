@@ -1,0 +1,27 @@
+// main: style.less
+
+.slider {
+    padding: 2rem 0;
+    margin: 0 auto;
+
+    .carousel {
+        
+        width: 100%;
+
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        height: auto;
+
+        @media only screen and (max-width: 800px) {
+            max-height: 270px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            max-height: 240px;
+        }
+    }
+}
